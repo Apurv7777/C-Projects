@@ -15,7 +15,7 @@
 -    - o x
 -    x - -
 -    - - -
-    the crosses represent the human side. 
+-    the crosses represent the human side. 
     At this point , it's the computer's turn to play, the function walks through the board an sees if the 
     user could win , it needs to place a blocking moe to prevent player from winnning.
     In this case, as the function goes through index 2 and 3 , it considers the two crosses next to each other,
@@ -26,5 +26,6 @@
 -    :,x,-,-,:,
 -    :,-,-,-,:,
 -    :,:,:,:,:,
-    another issue is that the user will be asked to enter his move on the basic of 1 to 9 index, so we need to 
+
+-    another issue is that the user will be asked to enter his move on the    basic of 1 to 9 index, so we need to 
     convert those into their equivalents in the 25 sized array.
